@@ -3,7 +3,7 @@ const number = parseInt(arg);
 
 const factorial = function fact(n) {
   if (isNaN(n) || n < 0) {
-    return "Invalid input: please enter a non-negative integer";
+    return 1;
   }
   if (n === 0 || n === 1) {
     return 1;
