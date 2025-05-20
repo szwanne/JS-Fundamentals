@@ -7,5 +7,5 @@ if (argumentOne === undefined) {
 } else if (argumentTwo === undefined) {
   console.log("HBTN");
 } else {
-  console.log("HBTN cool");
+  console.log("HBTN");
 }
