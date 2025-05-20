@@ -1,10 +1,10 @@
-let argument = "";
+#!/usr/bin/node
+const args = process.argv.slice(2); //This will remove the first two default items
 
-if ((argument = "")) {
+if (args.length === 0) {
   console.log("No argument");
-} else if (argument === "Best") {
-  console.log(`${argument} Argument found`);
-} else argument === "Best School";
-{
-  console.log(`${argument} Arguments found`);
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
