@@ -3,9 +3,9 @@
 const [argumentOne, argumentTwo] = process.argv.slice(2);
 
 if (argumentOne === undefined) {
-  console.log("argument");
+  console.log("undefined is undefined");
 } else if (argumentTwo === undefined) {
-  console.log("HBTN");
+  console.log("HBTN is undefined");
 } else {
-  console.log("Python fun");
+  console.log("Python is fun");
 }
